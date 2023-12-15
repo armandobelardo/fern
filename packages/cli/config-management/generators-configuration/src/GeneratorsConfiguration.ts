@@ -8,6 +8,7 @@ export interface GeneratorsConfiguration {
     absolutePathToConfiguration: AbsoluteFilePath;
     absolutePathToOpenAPI: AbsoluteFilePath | undefined;
     absolutePathToAsyncAPI: AbsoluteFilePath | undefined;
+    absolutePathToTransformerOverrides: AbsoluteFilePath | undefined;
     rawConfiguration: GeneratorsConfigurationSchema;
     defaultGroup: string | undefined;
     groups: GeneratorGroup[];
